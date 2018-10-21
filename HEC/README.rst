@@ -1,5 +1,5 @@
-Tidal Evolution of Ocean Planet
-===================================
+Tidal/Atmospheric/Internal Evolution of Proxima b into a "Habitable Evaporated Core."
+=====================================================================================
 
 Overview
 --------
@@ -33,7 +33,7 @@ To run this example
     cd cpl
     vplanet vpl.in
 
-Repeat process for each sub-directory: cpl, no_ocean, ocean, env_ocean.
+Repeat process for each sub-directory: no_ocean, ocean, env_ocean.
 
 Once the simulations are finished, run
 
