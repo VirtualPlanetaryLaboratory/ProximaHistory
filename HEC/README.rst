@@ -29,22 +29,23 @@ To run this example
 -------------------
 
 .. code-block:: bash
+
     cd cpl
     vplanet vpl.in
-    vplot
 
 Repeat process for each sub-directory: cpl, no_ocean, ocean, env_ocean.
 
 Once the simulations are finished, run
 
 .. code-block:: bash
-    python tidal_ocean.py
+
+    python hec.py
 
 
 Expected output
 ---------------
 
-.. figure:: tidal_ocean.png
+.. figure:: ProximaHEC.png
    :width: 600px
    :align: center
 
