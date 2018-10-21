@@ -130,6 +130,6 @@ fig.tight_layout()
 fig.subplots_adjust(hspace=0.175)
 
 # Save figure
-fig.savefig("tidal_ocean.png")
+fig.savefig("ProximaHEC.png")
 
 # Done!
