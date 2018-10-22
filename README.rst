@@ -16,13 +16,12 @@ reproduce Figure 25 from Barnes et al. (2016).
 ===================   ============
 **Date**              8/17/2018
 **Author**            David Fleming
-**Modules**           `atmesc <../src/atmesc.html>`_
-                      `eqtide <../src/eqtide.html>`_
-                      `radheat <../src/radheat.html>`_
-                      `stellar <../src/stellar.html>`_
-                      `thermint <../src/thermint.html>`_
-**Approx. runtime**   30s
-**Source code**       `GitHub <https://github.com/VirtualPlanetaryLaboratory/vplanet-private/tree/master/examples/tidal_ocean>`_
+**Modules**           atmesc
+                      eqtide
+                      radheat
+                      stellar
+                      thermint
+**Approx. runtime**   3 minutes
 ===================   ============
 
 To run this example
@@ -30,22 +29,21 @@ To run this example
 
 .. code-block:: bash
 
-    cd cpl
     vplanet vpl.in
 
-Repeat process for each sub-directory: no_ocean, ocean, env_ocean.
+Repeat process for each sub-directory: HEC/cpl, HEC/no_ocean, HEC/ocean, HEC/env_ocean.
 
 Once the simulations are finished, run
 
 .. code-block:: bash
 
-    python hec.py
+    python makeplot.py < png | pdf >
 
 
 Expected output
 ---------------
 
-.. figure:: ProximaHEC.png
+.. figure:: HEC.png
    :width: 600px
    :align: center
 

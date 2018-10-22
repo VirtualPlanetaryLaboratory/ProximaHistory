@@ -1,22 +1,31 @@
 """
 
 Code to generate the atmosphere escape + ocean + thermal interior potential
-tidal evolution histories for Proxima Centauri b, Figure 25 from Barnes et al. 2016
+tidal evolution histories for Proxima Centauri b, Figure 25 from
+Barnes et al. 2016
 
 @author: David P. Fleming
 @email: dflemin3 (at) uw (dot) edu
 
-Date: August 17th, 2018
+Date: Oct. 21st, 2018
 
 """
 
-from __future__ import division, print_function, absolute_import, unicode_literals
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import vplot as vpl
 import numpy as np
+import sys
 
-mpl.rcParams.update({'font.size': 24})
+# Check correct number of arguments
+if (len(sys.argv) != 2):
+    print('ERROR: Incorrect number of arguments.')
+    print('Usage: '+sys.argv[0]+' <pdf | png>')
+    exit(1)
+if (sys.argv[1] != 'pdf' and sys.argv[1] != 'png'):
+    print('ERROR: Unknown file format: '+sys.argv[1])
+    print('Options are: pdf, png')
+    exit(1)
 
 # Load in simulation results using vplot
 ocean_path = "ocean/"
@@ -52,6 +61,7 @@ cpl_ls = "-"
 env_ls = "--"
 
 # Plot!
+mpl.rcParams.update({'font.size': 24})
 fig, axes = plt.subplots(nrows=3,ncols=2,figsize=(18,22))
 axes = axes.flatten()
 
@@ -130,6 +140,9 @@ fig.tight_layout()
 fig.subplots_adjust(hspace=0.175)
 
 # Save figure
-fig.savefig("ProximaHEC.png")
+if (sys.argv[1] == 'pdf'):
+    fig.savefig('HEC.pdf', bbox_inches="tight", dpi=600)
+if (sys.argv[1] == 'png'):
+    fig.savefig('HEC.png', bbox_inches="tight", dpi=600)
 
 # Done!
