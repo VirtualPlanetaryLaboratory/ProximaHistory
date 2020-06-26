@@ -36,4 +36,4 @@ Expected output
    :width: 150px
    :align: center
 
-The figures above show a possible evolutionary scenario for the eccentricity, inclination, semimajor axis, and rotational period of Proxima b's orbit and the eccentricity and inclination of Proxima c's orbit. The first figure illustrates the case in which there is initially a 2º mutual inclination between b and c, while the second illustrates the case in which there is a 20º initial mutual inclination. The black dashed lines indicate the observed present-day values of Proxima b's orbital eccentricity and semimajor axis
+The figures above show a possible evolutionary scenario for the eccentricity, inclination, semimajor axis, and rotational period of Proxima b's orbit and the eccentricity and inclination of Proxima c's orbit. The first figure illustrates the case in which there is initially a 2º mutual inclination between b and c, while the second illustrates the case in which there is a 20º initial mutual inclination. The black dashed lines indicate the observed present-day values of Proxima b's orbital eccentricity and semimajor axis.
