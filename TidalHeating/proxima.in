@@ -1,0 +1,14 @@
+# sun parameters
+sName        proxima
+dMass        0.123
+#dSemi        0
+#dEcc         0
+dRadius		0.000189 	#calculated using 0.14 rsun
+dLuminosity 	5.961e23 	#Calculated using 0.00155 lsun
+sStellarModel none
+saModules    stellar eqtide
+
+# EQTIDE Parameters
+dTidalQ		1e6		# Tidal phase lag
+dK2		0.299		# Love number of degree 2
+saTidePerts	b_low b_med b_high 		# Body name(s) of tidal perturbers
