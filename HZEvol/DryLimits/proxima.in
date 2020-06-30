@@ -1,0 +1,13 @@
+# The host star, Proxima Centauri
+sName	        star		       # Body's name
+saModules	    stellar        # Modules to apply, exact spelling required
+
+dMass         0.12           # Overridden by sStellarModel, but code expects it
+dRadGyra      0.5            # Radius of gyration
+
+# STELLAR Parameters
+# Stellar evolution model: "Baraffe", "proximacen" or "none"
+sStellarModel proximacen
+
+# Output
+saOutputOrder Time -Luminosity Temperature

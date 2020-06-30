@@ -1,0 +1,10 @@
+# The host star, Proxima Centauri
+sName	        a05		            # Body's name
+
+# Physical Parameters
+dMass		1e-6
+dAlbedoGlobal	0.5
+
+# Output
+saOutputOrder Time -hzlimitdry
+ 
