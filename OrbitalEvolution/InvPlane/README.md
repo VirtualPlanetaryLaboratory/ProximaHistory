@@ -1,4 +1,4 @@
-InvPlane results for Proxima Centauri ========
+# InvPlane results for Proxima Centauri
 
 We apply the [InvPlane](https://github.com/RoryBarnes/InvPlane) tool
 in order to obtain orbital parameters for Proxima b and c. InvPlane
@@ -24,7 +24,6 @@ Format of the input file:
 NumberOrbiters
 CentralMass
 Mass SemimajorAxis Eccentricity Inclination LongitudeAscendingNode ArgumentPericenter MeanAnomaly
-...
 ```
 
 where NumberOrbiters is the number of orbiters (don\'t count the
