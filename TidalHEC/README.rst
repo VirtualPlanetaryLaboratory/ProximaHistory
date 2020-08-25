@@ -43,7 +43,7 @@ Once the simulations are finished, run
 Expected output
 ---------------
 
-.. figure:: HEC.png
+.. figure:: TidalHEC.png
    :width: 600px
    :align: center
 
